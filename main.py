@@ -34,8 +34,8 @@ def open_file_and_replace(path, replace, time):
 # Подключение к серверу
 conn = jaydebeapi.connect( 
 'oracle.jdbc.driver.OracleDriver',
-'jdbc:oracle:thin:de1m/samwisegamgee@de-oracle.chronosavant.ru:1521/deoracle',
-['de1m','samwisegamgee'],
+'jdbc:oracle:thin:de1m/************@de-oracle.************.ru:1521/deoracle',	# Вместо * пароль и домен второго уровня
+['de1m','*************'],	# Вместо * пароль
 '/home/de1m/mndg/ojdbc8.jar'
 )
 
